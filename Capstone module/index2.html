@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Carousel</title>
+  <style>
+    body{
+      background-color: #deb878;
+    }
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      text-transform: capitalize;
+    }
+    .carousel-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px; /* Adjust based on your image height */
+ 
+
+    /* Hide all slides by default */
+    .myslides {
+      display: none;
+      max-height: 100%; /* Ensure images fit within container */
+      max-width: 100%;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>my favorite Places</h1>
+ 
+  <div class="carousel-container">
+    <img class="myslides" src="pic1.jpg" height="300" width="300" alt="Slide 1">
+    <img class="myslides" src="pic4.jpg" height="300" width="300" alt="Slide 2">
+    <img class="myslides" src="pic3.jpg" height="300" width="300" alt="Slide 3">
+  </div>
+
+  <script src = "script.js">
+    
+  </script>
+</body>
+</html>

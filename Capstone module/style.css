@@ -1,0 +1,63 @@
+ 
+      body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav{
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a{
+        float: left;
+        color: deeppink;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover{
+        background-color: blueviolet;
+        color: deepskyblue;
+      }
+      .topnav a.active{
+        background-color: yellowgreen;
+        color: darkcyan;
+      }
+
+    body{
+  margin:0;
+  font-size:16px;
+  font-weight:400;
+  background-color:#c8bb89;
+}
+.cover{
+  background-image:url('BULDING.jpeg');
+  height:400px;
+  position:relative;
+  opacity:1;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.section{
+  text-align:left;
+  padding:50px 80px;
+  background-color:#3d3d3e;
+  color:#ddd;
+}
+p{
+  font-size:20px;
+  text-align:left ;
+
+}
+
+.myslides{
+  height: 500px;
+  width:100%;
+}
+img{
+  width:200px;
+}
+
+
